@@ -1,0 +1,13 @@
+Ember App made by following along with codeschool.com
+
+I have a REST server written that this connects with, so it won't work without it unless you modify it like so:
+
+App.ApplicationAdapter = DS.FixtureAdapter.extend();
+
+then you uncomment out the following in app.js:
+
+App.Product.FIXTURES = products;
+App.Contact.FIXTURES = contacts;
+App.Review.FIXTURES = reviews;
+
+k. bye.
